@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <nav>
+        <ul class="navbar">            
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="educacionbasica.html">Educacion basica</a>
+            </li>
+            <li>
+                <a href="educacionmedia.html">Educacion media</a>
+            </li>
+            <li>
+                <a href="educacionsuperior.html">Educación Superior</a>
+            </li>
+            <li>
+                <a href="titulos.html">Titulos</a>
+            </li>
+            <li>
+                <a href="contactame.html">Contactame</a>
+            </li>
+        </ul class="navbar"->
+        </nav>
+            <form id="form-registro">
+            <h1>Enviame tus datos para contactarnos</h1>
+            <div class="campo-form">
+                <label>Nombres y Apellido</label>
+            
+            </div>
+            <input type="text" name="Nombreyapellido" id="Nombreyapellido">
+            <div class="campo-form">
+                <label>Email</label>
+            
+            </div>
+            <input type="text" name="Email" id="Email">
+            <div class="campo-form">
+                <label>Télefono</label>
+            
+            </div>
+            <input type="text" name="Teléfono" id="Teléfono">
+            <label>Deseas recibir información a tu email?</label>
+            <div>
+                <input type="radio" name="info" id="info1" value="Sí" checked>Sí, me gustaría recibir información
+            </div>
+            <div>
+                <input type="radio" name="info" id="info2" value="No" checked>No, no me gustaría recibir información
+            </div><br>
+            <label>En caso de ser sí, revisa tu carpeta de spam.</label>
+            <div>
+                <input class="btn btn-enviar" type="submit" value=" Enviar datos">
+                <input class="btn btn-limpiar" type="reset" value="Limpiar">
+            </div>
+         </form>
+         <div class="popup" onclick="myFunction()">_____________
+            <span class="popuptext" id="myPopup">ENVIADO CORRECTAMENTE, GRACIAS POR CONTACTARNOS!</span>
+          </div>
+          <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+            
+
+</body>
+</html>

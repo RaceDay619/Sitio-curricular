@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+
+body{
+    background-color: #3d1081;
+background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dac2ff' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+    
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+
+.welcome{
+    width: 600px;
+    border-radius: 35%;
+    border: 5px solid palevioletred;
+    background-color: palevioletred;
+    margin-left: 600px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: white
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#contenedor-index{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index img{
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#contenedor-index p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 25px;
+    margin-top: 5%;
+    margin-left: 18%;
+    border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#misdatos{ 
+    background-color: cadetblue;
+    height: min-content;
+    padding: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#contenedor-ul{
+    background-color: cadetblue;
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+#contenedor-ul2{
+    background-color: cadetblue;
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-style: solid;
+    font-size: 20px;
+}
+    
+/*Pagina index*/
+
+/*Contacto*/
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+#form-registro{
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    width: 500px;
+    margin: 5%;
+    margin-left: 36.5%;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.campo-form{
+    margin-bottom: 15px;
+}
+
+#form-registro h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#form-registro input[type=text], input[type=email]{
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.btn{
+    border:none;
+    font-size: 20px;
+    background-color: steelblue;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.btn:hover{
+    cursor:pointer;
+}
+
+/* educacion basica*/
+
+#basicaheader{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-right: 650px;
+    margin-left: 600px;
+}
+
+#contenedor-index-kinder{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index-kinder img{
+    width:500px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#contenedor-index-kinder p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 20px;
+    border-radius: 28%;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contenedor-colekinder{
+    background-color: cadetblue;
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: -160px;
+    margin-left: 700px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+#contenedor-colebasica{
+    background-color: cadetblue;
+    display: flex;
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+/*enseñanza media*/
+
+#mediaheader{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-right: 650px;
+    margin-left: 600px;
+}
+
+#contenedor-index-media{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index-media img{
+    width:500px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#contenedor-index-media p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 20px;
+    border-radius: 28%;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contenedor-edumedia{
+    background-color: cadetblue;
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: px;
+    margin-left: 700px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+/*educacion superior*/
+
+#superiorheader{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-right: 650px;
+    margin-left: 600px;
+}
+
+#contenedor-index-superior{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index-superior img{
+    width:500px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#contenedor-index-superior p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 20px;
+    border-radius: 28%;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contenedor-superior{
+    background-color: cadetblue;
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: -160px;
+    margin-left: 700px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+#contenedor-index-superior2{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index-superior2 img{
+    width:500px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contenedor-index-superior2 p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 20px;
+    border-radius: 28%;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contenedor-superior2{
+    background-color: cadetblue;
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: -220px;
+    margin-left: 700px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+/* pop up contacto*/
+
+.popup {
+    margin-top: -165px;
+    margin-left: 750px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 200px 200px;
+    position: absolute;
+    z-index: 1;
+    bottom: 300%;
+    left: 50%;
+    margin-left: px;
+    font-size: 20px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* pop up contacto*/
+
+  /*titulos*/
+
+  #titulosheader{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-right: 800px;
+    margin-left: 700px;
+}
+
+#contenedor-index-titulo{
+    display: flex;
+    font-size: large;
+    text-align: justify;
+}
+#contenedor-index-titulo img{
+    width: 500px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contenedor-index-titulo p{
+    background-color: cadetblue;
+    height: min-content;
+    padding: 20px;
+    border-radius: 28%;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contenedor-titulos{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    padding: 10px;
+    margin-top: -220px;
+    margin-left: 800px;
+    margin-right: 400px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+#certificadocisco img{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 800px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
